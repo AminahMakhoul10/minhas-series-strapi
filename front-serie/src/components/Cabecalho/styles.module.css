@@ -1,0 +1,102 @@
+.cabecalho{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    justify-content: flex-end;
+    min-width: 100%;
+    height: 35px;
+    padding: 1em;
+    align-items: center;
+    color:white;
+
+}
+
+.h1{
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin: 0; 
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em 0.8em;
+    position: fixed;
+    top: 0.1px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    width: calc(100% - 1.6em); /*evitar q o navbar saia da tela*/
+   
+}
+.navbar a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+}
+
+.borda_serie{
+  background-color: red;
+  padding: 3px 5px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 6px;
+
+}
+
+.fundo{
+    background-image: url('/images/capa.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    min-width: 100%;
+    padding: 1em;
+   
+
+}
+
+.pesquisa{
+    display: flex;
+    padding: 13px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.pesquisa input{
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.pesquisa button{
+  padding: 8px;
+  background-color: red;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.textoimg{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 170px;
+    padding-right: 10%;
+
+    
+}
